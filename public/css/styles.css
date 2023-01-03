@@ -58,7 +58,9 @@ h1{
 .secure-btn{
   margin: 15px 25px;
 }
-
+.about{
+  padding: 1% 1%;
+}
 @media screen and (max-width:992px) {
   .email{
     margin-top: 0;

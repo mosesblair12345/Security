@@ -120,6 +120,10 @@ app.get("/logout",function(req,res){
   });
 });
 
+app.get("/about",function(req,res){
+  res.render("about");
+});
+
 app.post("/signup",function(req,res){
   const firstName=req.body.firstName;
   const lastName=req.body.lastName;
