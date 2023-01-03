@@ -1,0 +1,69 @@
+body{
+  font-family: 'Noto Serif', serif;
+  background-color: #FAF8F1;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  font-size: 1.4rem
+}
+.home-container{
+  padding: 5% 0;
+}
+.home-btn{
+  margin: 20px;
+}
+.permission-img{
+  width: 70%;
+}
+.sign-up{
+  padding: 30px 60px 5px 60px;
+}
+.btn-signup{
+  margin-top: 20px;
+}
+.email{
+  margin-top: 15%;
+}
+
+.paragraph-link{
+  margin-top: 20px;
+}
+.link{
+  text-decoration: none;
+}
+.secure{
+  margin-top: 2%;
+}
+.img-rounded{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.secure-heading{
+  margin-bottom: 20px;
+}
+.secure-icon{
+  color:#EB455F;
+}
+.secure-paragraph{
+  font-size: 1.1rem;
+}
+.secure-btn{
+  margin: 15px 25px;
+}
+
+@media screen and (max-width:992px) {
+  .email{
+    margin-top: 0;
+  }
+  .signup{
+    margin-top: 0;
+  }
+}
