@@ -26,9 +26,13 @@
           <button class="btn btn-lg btn-dark btn-signup" type="submit" name="submit">Login</button>
           </div>
           <div class="d-grid gap-2">
-            <a href="/auth/google" class="btn btn-lg btn-social btn-google btn-signup">
-              <i class="fa-brands fa-google"></i>
-              Sign in with Google
+            <a class="google"href="/auth/google" onclick="changeColor()">
+              <div class="google-div">
+                  <img class="google-img"src="/images/google.png" alt="google-img">
+              </div>
+              <div class="google-text">
+                Sign in with Google
+              </div>
             </a>
           </div>
           <p class="paragraph-link">Don't have an account yet? <a class="link" href="/signup">Join Now !</a></p>
@@ -38,6 +42,9 @@
 </div>
 
 <script>
+  function changeColor(){
+    document.querySelector(".google").style.backgroundColor="#0F52BA"
+  }
 if ( window.history.replaceState ) {
   window.history.replaceState( null, null, window.location.href );
 }

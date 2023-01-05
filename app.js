@@ -124,6 +124,10 @@ app.get("/about",function(req,res){
   res.render("about");
 });
 
+app.get("/about/privacypolicy",function(req,res){
+  res.render("privacypolicy");
+});
+
 app.post("/signup",function(req,res){
   const firstName=req.body.firstName;
   const lastName=req.body.lastName;
